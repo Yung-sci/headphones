@@ -1,0 +1,15 @@
+body {
+    background-image: url(headphones_hero_1.jpg);
+}
+
+.nav-link {
+    float: inline-end;
+}
+
+nav {
+    display: flex;
+}
+
+.text {
+    align-items: center;
+}
