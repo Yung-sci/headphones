@@ -2,14 +2,24 @@ body {
     background-image: url(headphones_hero_1.jpg);
 }
 
-.nav-link {
-    float: inline-end;
+.logo {
+    display: flex;
+    flex-direction: row;
 }
 
-nav {
+.nav-menu {
     display: flex;
+    gap: 40px;
+    padding: 1rem;
 }
 
 .text {
-    align-items: center;
+    width: 637pt;
+    text-align: center;
+}
+
+button {
+    background-color: #FF6565;
+    border-radius: 1.5rem;
+    padding: 0.5rem;
 }
