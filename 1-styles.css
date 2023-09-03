@@ -1,0 +1,76 @@
+ /* adding background images 1 */ 
+ .background-image {
+    background-image: url(headphones_hero_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* logo & nav-menu */
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    max-width: 1000px;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 40px;
+    padding: 1rem;
+}
+
+/* styling the navigation links*/ 
+.nav-link {
+    color: #ffffff;
+}
+
+.nav-link:hover {
+    color: #FF6565;
+}
+
+.nav-link:active {
+    color: #FF6565;
+}
+
+/* styling the text and Button*/
+.text {
+    max-width: 1000px;
+    text-align: center;
+    color: #ffffff;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+button:active {
+    opacity: 0.9;
+}
+
+button  {
+    background-color: #FF6565;
+    border-radius: 1.5rem;
+    padding: 0.5rem;
+    border: none;
+    text-decoration: #ffffff;
+}
+
+.what-we-do {
+    text-align: center;
+    max-width: 1000px;
+}
+.what-we-do-icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.icons {
+    text-align: center;
+}
+
+.text-icons {
+    flex-direction: row;
+    text-align: center;
+}
