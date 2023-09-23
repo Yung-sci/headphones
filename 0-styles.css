@@ -23,17 +23,19 @@ a {
 
 .section-header {
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	width: 1000.392px;
     height: 32px;
     flex-shrink: 0;
 	padding-top: 27.76px;
-	gap: 584px;
 }
 
+.header {
+	display: flex;
+	justify-content: center;
+}
 ul {
 	display: flex;
-	flex-direction: row;
 	gap: 41px;
 }
 
