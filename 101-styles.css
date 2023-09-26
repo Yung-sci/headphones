@@ -9,8 +9,12 @@ li {
 ul a {
 	text-decoration: none;
 	color: #ffffff;
+}
+
+.anime-1 {
     position: relative; /* Needed for absolute positioning */
 }
+
 /* Header
     ============================= */
 
