@@ -1,0 +1,374 @@
+html {
+	scroll-behavior: smooth;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #ffffff;
+}
+/* Header
+    ============================= */
+
+.container {
+	background-image: url(images/headphones_hero_1.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.section-header {
+	display: flex;
+	justify-content: center;
+}
+
+.header {
+	display: flex;
+	justify-content: center;
+	display: flex;
+	justify-content: space-between;
+	width: 1000.392px;
+    height: 32px;
+    flex-shrink: 0;
+	padding-top: 27.76px;
+}
+ul {
+	display: flex;
+	gap: 41px;
+}
+
+li a:active, li a:hover {
+	color: #FF6565;
+}
+
+.section-banner{
+	text-align: center;
+	padding: 372px;
+}
+
+.section-text {
+	color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.section-text-0 {
+	color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.banner-btn {
+	padding: 40px;
+}
+
+button:active, button:hover {
+	opacity: 0.9
+}
+
+.banner-btn-1 {
+	border-radius: 22px;
+    background: #FF6565;
+	border: none;
+	width: 162px;
+    height: 44px;
+    flex-shrink: 0;
+	color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.banner-par-0 {
+	padding: 65px;
+}
+
+.banner-par {
+	color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+
+/* Main
+    ============================= */
+.background-about {
+    background-color: #ffffff;
+}
+
+.What-0 {
+    padding: 110px;
+}
+
+.what {
+    display: flex;
+    gap: 40px;
+}
+
+.What-text {
+    color: #071629;
+    text-align: center;
+    font-family: SourceSansPro;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.What-text-0{
+    display: flex;
+    justify-content: center;
+}
+.What-text-1 {
+    color: #071629;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    width: 637px;
+}
+
+.about-icons-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.about-icons {
+    display: flex;
+    width: 1002px;
+    height: 193px;
+    padding: 97px;
+    gap: 58px;
+}
+
+.icon-lor {
+    color: #071629;
+    text-align: center;
+    font-family: SourceSansPro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; /* 144.444% */
+}
+
+.icon-lor-1 {
+    color: #071629;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 185.714% */
+}
+
+.icon-1 {
+    padding-left: 3.5rem;
+}
+
+.icon-01 {
+    width: 207px;
+    height: 180px;
+    flex-shrink: 0;
+}
+
+.icon-02 {
+    width: 207px;
+    height: 180px;
+    flex-shrink: 0;
+}
+
+.icon-03 {
+    width: 207px;
+    height: 180px;
+    flex-shrink: 0;
+    padding: 1rem;
+}
+
+.icon-04 {
+    width: 207px;
+    height: 180px;
+    flex-shrink: 0;
+    padding: 1rem;
+}
+/* section results */
+
+.background-results {
+	display: inherit;
+	background-image: url(images/headphones_hero_2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	max-height: 650px;
+	min-height: 650px;
+	color: var(--color-white);
+}
+
+.section-results {
+	padding: 141px;
+}
+
+.results-icons {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.results-title {
+	color: #FFF;
+	text-align: center;
+	font-family: SourceSansPro;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}
+
+.results-title-0 {
+	display: flex;
+	justify-content: center;
+}
+
+.results-title-1 {
+	color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+	width: 637px;
+}
+.section-results p {
+	margin: 0;
+    padding-bottom: 56px;
+    color: #ffffff;
+}
+
+.pentagon-text {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+    padding-top: 75px;
+    color: #ffffff;
+}
+
+.pentagon-text p {
+	font-size: 46px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+
+.pentagon-text span {
+	padding-top: 30px;
+	font-size: 13.5px;
+}
+
+.pentagon {
+	width: 190px;
+	height: 190px;
+    background-color: #FF6565;
+    clip-path: polygon(50% 0%, 100% 38%, 81% 100%, 19% 100%, 0% 38%);
+}
+
+/*contact area*/
+
+.uhhku {
+	background-color: #ffffff;
+}
+
+.section-contact {
+	display: flex;
+	flex-direction: column;
+	width: 335px;
+	height: 613px;
+	margin-left: auto;
+	margin-right: auto;
+    padding: 110px;
+}
+
+.section-contact .section-title {
+	padding-bottom: 13px;
+}
+
+.section-contact form {
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 50px;
+}
+
+.section-contact form input {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-color: #979797;
+	border-width: 1px;
+}
+
+.section-contact form label {
+	padding-top: 45px;
+}
+
+.section-contact a {
+	align-self: center;
+}
+
+.section-contact a.banner-btn {
+	width: 162px;
+	color: var(--color-white);
+}
+
+.footer {
+	background-color: #071629;
+	height: 249px;
+}
+
+.footer-1 {
+    display: flex;
+    justify-content: center;
+    gap: 736px;
+    padding: 90px;
+}
+
+.link-img {
+    display: flex;
+    gap: 20px;
+}
+
+.smile {
+    display: flex;
+    justify-content: center;
+    opacity: 0.3517;
+}
+.smile-txt {
+    color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
